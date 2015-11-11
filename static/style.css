@@ -1,0 +1,229 @@
+/*** Google Font Import ***/
+
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+
+/*** General Styles ***/
+
+body {
+	color: #36393D;
+	font-family: 'cabin', Helvetica, Arial, Verdana, clean, sans-serif;
+	min-width: 320px;
+	height: 100%;
+}
+
+a, a:visited, a:active {
+	color: #369;
+	font-family: 'cabin', Helvetica, Arial, Verdana, clean, sans-serif;
+	text-decoration: none; }
+
+a:hover { color: #4096EE; }
+
+p {
+	font-family: 'cabin', Helvetica, Arial, Verdana, clean, sans-serif;
+}
+
+section {
+    margin: 45px auto;
+    width: 900px;
+    position:relative;
+}
+
+.white {
+	color: white;
+}
+
+.padtop{
+	padding-top: 100px;
+}
+
+.toggle {
+    position:fixed;
+    top:15px;
+		right:0px;
+		padding-right: 30px;
+		color: black;
+		font-size: 40px !important;
+		padding-bottom: 8px;
+		margin-right: 0px !important;
+}
+
+.tiny a{
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.tiny{
+	font-size: 15px;
+}
+
+.smallish{
+	font-size: 20px;
+}
+
+hr {
+     color: #EEEEEE;
+     background: #EEEEEE;
+     width: 15%;
+     height: 5px;
+}
+
+.overhr {
+	width: 6%;
+}
+
+.title {
+	font-size: 70px;
+	padding-top: 100px;
+}
+
+.sub {
+	font-size: 20px;
+	padding-top: 30px;
+}
+
+.social li{
+    display:inline;
+}
+
+#page{
+
+}
+
+#socials{
+		padding-right: 50px;
+}
+
+
+.fb-share-button{
+    position:relative;
+    top:-11px;
+}
+
+/*** Main Styles ***/
+
+#container {
+	font-size: 220%;
+	margin-top: 30%;
+	text-align: center;
+	}
+
+	#container p {
+		line-height: 1.2em;
+		margin: 0.6em; }
+
+	#container a {
+		color: #369;
+	}
+
+	#container img { border: 0; }
+
+	#container code { font-size: 110%; }
+
+	#container .warning, #container .save {
+		font-size: 50%; }
+
+	#container .warning { color: #B02B2C; }
+
+	#container .save { color: #008C00; }
+
+	#container .url {
+		font-weight: bold;
+		word-wrap: break-word;
+		hyphens: none; }
+
+	#container .smaller { font-size: 65%; }
+
+	#container #input {
+		*vertical-align: middle;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		_vertical-align: middle;
+		background-color: #FFF;
+		border-radius: 5px;
+		border: 1px solid #CCC;
+		color: #36393D;
+		font-family: 'cabin', Helvetica, Arial, Verdana, clean, sans-serif;
+		padding: 5px;
+		width: 4em; }
+
+	#container #input[disabled] { background-color: #EEE; }
+
+	#container #submit {
+		background-color: transparent;
+		border: none;
+		color: #369;
+		cursor: pointer;
+		font-family: 'cabin', Helvetica, Arial, Verdana, clean, sans-serif;
+		text-decoration: none; }
+
+	#container #submit[disabled] { color: #AAA; }
+
+	#container #submit:hover { color: #4096EE; }
+
+/*** Overlay ***/
+
+#overlay {
+	color: #555;
+	font-size: 16px;
+	line-height: 2em;
+	text-align: center;
+	z-index:1;
+	background: rgba(0, 0, 0, 0.85);
+	display:none;
+	padding:0;
+	position: fixed;
+	top: 0px;
+	left: 0%;
+	overflow-y: scroll;
+	height: 100%;
+	width: 100%;}
+
+	#overlay li {
+
+		margin: 0 20px; }
+
+	#overlay a {
+		font-size: 100%;
+		color: #fff;
+		margin: 5px; }
+
+	#content {
+		max-width: 650px !important;
+		color: #fff;
+		margin:0 auto;
+		text-align: center;
+		}
+
+		#spacer{
+			padding-top: 100px;
+		}
+
+/*** Media Queries ***/
+
+@media screen and (min-width: 320px) {
+	#container #input{ width: 200px; }
+}
+
+@media screen and (min-width: 400px) {
+	#container #input{ width: 200px; }
+}
+
+@media screen and (min-width: 480px) {
+	#container #input{ width: 250px; }
+	#buysellads{ width: 340px; }
+}
+
+@media screen and (min-width: 560px) {
+	#container #input{ width: 250px; }
+}
+
+@media screen and (min-width: 640px) {
+	#container #input{ width: 250px; }
+}
+
+@media screen and (min-width: 720px) {
+	#container #input{ width: 250px; }
+	#container { margin-top: 14%; }
+}
+
+@-ms-viewport { width: device-width; }
